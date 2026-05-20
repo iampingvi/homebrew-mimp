@@ -1,0 +1,15 @@
+{
+  "version": "1.2.1",
+  "published_at": "2026-05-20T15:24:00Z",
+  "changelog": "# Changelog\n\n## [1.2.1] - Secure Tokenless Auto-Updater\n\n### Security\n- Removed hardcoded GitHub access token from the app binary — eliminates a critical credential exposure vector that could be extracted from any compiled build.\n\n### Changed\n- Auto-update checks now read from a static JSON manifest on GitHub CDN (`raw.githubusercontent.com`) — no API rate limits, no authentication required.\n- Update downloads now use direct public URLs from the Homebrew tap mirror instead of the private GitHub API.\n- Official website now loads version info and download links from the same static CDN manifest — no Cloudflare Worker dependency.\n\n## [1.2.0] - Architecture-Specific Releases & Public Cask Mirroring\n\n### Changed\n- Replaced SwiftUI `.easeInOut` and `.spring` animations with highly precise `.timingCurve(0.16, 1, 0.3, 1, duration: 0.3)` to match native macOS window physics.\n- Removed hardcoded height bounds from internal SwiftUI `ZStack` container, enabling fluid and reactive content resizing.\n\n### Fixed\n- Completely fixed the \"resizing from center\" visual glitch when switching between compact and normal view modes.\n- Fixed window stuttering and content jitter during resizing animations.\n\n## [1.1.6] - Infrastructure Fix Release\n\n### Added\n- Official website launched at mimp.pingvi.link\n- Live downloads\n- Bugs\n\n### Changed\n- Website link in About view updated\n- All internal URLs migrated\n\n### Fixed\n- Fixed update view crash/blank screen\n- Live download counter",
+  "assets": {
+    "arm64": {
+      "url": "https://github.com/iampingvi/homebrew-mimp/releases/download/v1.2.1/MIMP-arm64.zip",
+      "sha256": "39936792c2556e7a428fbbd8b26526da07a766655a8402cad45fa4f1dfcdf09f"
+    },
+    "x64": {
+      "url": "https://github.com/iampingvi/homebrew-mimp/releases/download/v1.2.1/MIMP-x64.zip",
+      "sha256": "77cfa220353295443d8ff465a08cd2fad81417e5c948b2c4ac1931ef29ae4fbf"
+    }
+  }
+}
