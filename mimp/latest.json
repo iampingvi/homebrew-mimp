@@ -1,15 +1,15 @@
 {
-  "version": "1.2.5",
-  "published_at": "2026-05-21T01:44:25Z",
-  "changelog": "# Changelog\n\n## [1.2.5] - Window Size Fix\n\n### Fixed\n- Drop zone window is no longer slightly taller than the player window — both states now use the same fixed height.\n\n### Added\n- **ALAC (Apple Lossless Audio Codec)** support — drag & drop `.alac` files directly into the player.\n- **CAF (Core Audio Format)** support — `.caf` files are now recognized and playable.\n- Both formats are treated as lossless and display accurate high-resolution bitrate info.\n- ALAC and CAF are automatically registered as supported handlers during first launch setup.",
+  "version": "1.2.6",
+  "published_at": "2026-05-21T02:02:38Z",
+  "changelog": "# Changelog\n\n## [1.2.6] - ALAC Playback Fix\n\n### Fixed\n- ALAC playback issue where files with `.alac` extension failed to play due to `AVURLAsset` error parsing metadata. Added safe fallback to allow playback without metadata crash.\n\n## [1.2.5] - Window Size Fix\n\n### Fixed\n- Drop zone window is no longer slightly taller than the player window — both states now use the same fixed height.\n\n### Added\n- **ALAC (Apple Lossless Audio Codec)** support — drag & drop `.alac` files directly into the player.\n- **CAF (Core Audio Format)** support — `.caf` files are now recognized and playable.\n- Both formats are treated as lossless and display accurate high-resolution bitrate info.\n- ALAC and CAF are automatically registered as supported handlers during first launch setup.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.5/MIMP-arm64.zip",
-      "sha256": "8a719883dd62d15097d440c0ba267698097dc770728057320d0de5e1d44a0cbb"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.6/MIMP-arm64.zip",
+      "sha256": "6788d3276fed6a350923cc999a0672e7a99d8f6ed4937b33d2a4218a31004427"
     },
     "x64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.5/MIMP-x64.zip",
-      "sha256": "8d6cf3f37a7887ee18365ff2563e6207aefd33e59e1441a1c31d0c25a4b0fb02"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.2.6/MIMP-x64.zip",
+      "sha256": "1bd300b0a7a23d3c40f8f51b2ac52e2e004f2a804d3c2e4964b8fd8a61b11f0a"
     }
   }
 }
