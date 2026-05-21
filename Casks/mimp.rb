@@ -1,18 +1,20 @@
 cask "mimp" do
-  version "1.2.8"
+  version "1.2.9"
 
   on_intel do
-    sha256 "7f90ca97a792970a24c679539c528af4a3b7e814bcd065dbb48b292d0f65b6ef"
+    sha256 "fabbbb607b3cfa6df4dfd9df5ed870df91e6a195322edcfdfff18d255712465a"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/MIMP-x64.zip"
   end
   on_arm do
-    sha256 "8650fb4f0617c756c25f63ceb2c4c5c981485f3514c18642b983ce827cd567cc"
+    sha256 "946c3d2711e800b45b1cf69507b73098e7c9670b538d3e94d310569c99bf39b4"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/v#{version}/MIMP-arm64.zip"
   end
 
   name "MIMP"
   desc "Minimal Interface Music Player for MacOS"
   homepage "https://mimp.pingvi.link/"
+
+  auto_updates true
 
   app "MIMP.app"
 
