@@ -1,11 +1,11 @@
 {
-  "version": "1.0.3",
-  "published_at": "2026-05-21T20:15:32Z",
-  "changelog": "## [1.0.3]\n\n### Fixed\n- Исправлена критическая ошибка: при скачивании обновления временный файл удалялся системой до завершения установки. Теперь обновление устанавливается корректно.",
+  "version": "1.0.4",
+  "published_at": "2026-05-21T20:22:20Z",
+  "changelog": "## [1.0.4]\n\n### Fixed\n- Критическое исправление: архив обновления теперь скачивается из публичного репозитория и доступен всем пользователям без авторизации.\n- Незначительная оптимизация размера иконки приложения.",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/GloboFucker/releases/download/v1.0.3/GloboFucker.zip",
-      "sha256": "29f397a2d46aad157616fdb5ac49ad2fea5f7ac93213370de08a44c5086fffdc"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/v1.0.4/GloboFucker.zip",
+      "sha256": "ed29258fb49d6abc6c431ab85c1ff85d05adc7c3b0cc9ba73e4b707ba9de1edf"
     }
   }
 }

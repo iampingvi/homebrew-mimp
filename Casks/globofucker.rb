@@ -1,8 +1,8 @@
 cask "globofucker" do
-  version "1.0.3"
-  sha256 "29f397a2d46aad157616fdb5ac49ad2fea5f7ac93213370de08a44c5086fffdc"
+  version "1.0.4"
+  sha256 "ed29258fb49d6abc6c431ab85c1ff85d05adc7c3b0cc9ba73e4b707ba9de1edf"
 
-  url "https://github.com/iampingvi/GloboFucker/releases/download/v#{version}/GloboFucker.zip"
+  url "https://github.com/iampingvi/homebrew-apps/releases/download/v1.0.4/GloboFucker.zip"
   name "GloboFucker"
   desc "Switch keyboard language instantly with Fn/Globe key on macOS"
   homepage "https://pingvi.link"
