@@ -1,6 +1,6 @@
 cask "globofucker" do
   version "1.0.7"
-  sha256 "21cb4ed69d086f63c21d2b85118a6f91c4bc813d4aa0e17a65430c9040c7ac9f"
+  sha256 "93bc92997e5411d332ffc831d36f15d77c16082dfca3dd987f23feb49f8d1130"
 
   url "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.0.7/GloboFucker.zip"
   name "GloboFucker"
