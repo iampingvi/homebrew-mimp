@@ -1,11 +1,11 @@
 {
-  "version": "1.0.6",
-  "published_at": "2026-05-22T00:14:09Z",
-  "changelog": "## [1.0.6]\n\n### Added\n- Полная бесшовная интеграция автообновления с сохранением прав TCC (Accessibility) и автоматическим восстановлением автозапуска в системе.",
+  "version": "1.0.7",
+  "published_at": "2026-05-22T00:23:19Z",
+  "changelog": "## [1.0.7]\n\n### Fixed\n- Исправлено открытие раздела настроек: при клике на \"Предоставить разрешения\" теперь открывается непосредственно раздел \"Специальные возможности\" (Accessibility) на современных macOS (Sequoia/Sonoma/Ventura).",
   "assets": {
     "arm64": {
-      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.0.6/GloboFucker.zip",
-      "sha256": "f5b209956bf07cb331a903229b3ef79c831a21d78ab1f9a33068b0f1309fb85c"
+      "url": "https://github.com/iampingvi/homebrew-apps/releases/download/globofucker-v1.0.7/GloboFucker.zip",
+      "sha256": "6c49bf75f93fb0128533cdb2bfb534ae9a48eda07f7261bbcc808bf192bb0c89"
     }
   }
 }
