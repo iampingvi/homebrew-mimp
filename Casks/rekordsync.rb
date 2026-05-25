@@ -2,11 +2,11 @@ cask "rekordsync" do
   version "1.0.30"
 
   on_intel do
-    sha256 "da41d5d9d8a0e71df69bf4dcaa4cf83e787d0ebda72f13b00490ff2c15c0052e"
+    sha256 "083bb4a47fb6e7da08a6043f46f328d07c93a8f3cb3c8abfcb8192b9cc7d2819"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v#{version}/RekordSync-x64.zip"
   end
   on_arm do
-    sha256 "80ec050f16d11b73577235f73fb8a0240dae508a368efb7f73780923d07dd128"
+    sha256 "57994dc402908d2596e16a10e677aec004288d2b516d64452e2810616f4aaf06"
     url "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v#{version}/RekordSync-arm64.zip"
   end
 

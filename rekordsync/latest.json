@@ -1,15 +1,15 @@
 {
   "version": "1.0.30",
-  "published_at": "2026-05-25T10:57:01Z",
+  "published_at": "2026-05-25T11:27:26Z",
   "changelog": "RekordSync Release v1.0.30. Dynamic sync improvements, full disk access helpers, and native macOS menu updates.",
   "assets": {
     "arm64": {
       "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.30/RekordSync-arm64.zip",
-      "sha256": "80ec050f16d11b73577235f73fb8a0240dae508a368efb7f73780923d07dd128"
+      "sha256": "57994dc402908d2596e16a10e677aec004288d2b516d64452e2810616f4aaf06"
     },
     "x64": {
       "url": "https://github.com/iampingvi/homebrew-apps/releases/download/rekordsync-v1.0.30/RekordSync-x64.zip",
-      "sha256": "da41d5d9d8a0e71df69bf4dcaa4cf83e787d0ebda72f13b00490ff2c15c0052e"
+      "sha256": "083bb4a47fb6e7da08a6043f46f328d07c93a8f3cb3c8abfcb8192b9cc7d2819"
     }
   }
 }
